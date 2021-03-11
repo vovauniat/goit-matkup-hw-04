@@ -215,7 +215,31 @@ img {
   color: #9da4bd;
   background-color: var(--bd-color-pri);
 }
+.features-logo-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+.features-logo-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-basis: calc(100% / 4 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 270px;
+  height: 120px;
 
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.feat-icon {
+  height: 70px;
+  width: 70px;
+}
 .features-list {
   display: flex;
   flex-wrap: wrap;
@@ -333,6 +357,59 @@ img {
   color: var(--secondary-color);
 }
 /* =============END KOMANDA============= */
+/* postoyan klienty */
+.title-cust {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+  margin-bottom: 50px;
+}
+
+/* .cust-icon {
+  width: 20px;
+  height: 20px;
+} */
+.cust-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cust-list-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-basis: calc(100% / 6 - 30px);
+  margin-left: 30px;
+
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+/* .cust-list-element {
+} */
+.cust-list-item:hover,
+.cust-list-item:focus {
+  border-color: var(--accent-color);
+}
+.cust-icon:hover,
+.cust-icon:focus {
+  fill: var(--accent-color);
+}
+.cust-icon {
+  fill: #afb1b8;
+}
+.reg-cust {
+  background-color: var(--bd-color-pri);
+  padding-top: var(--section-pt);
+  padding-bottom: var(--section-pb);
+}
+
+/* end post klient */
 .footer {
   background-color: var(--bd-color-sec);
   padding-top: 60px;
