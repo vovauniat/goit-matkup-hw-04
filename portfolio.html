@@ -23,8 +23,8 @@
                     <li class="navigation-item">
                         <a class="navigation-link link" href="">Студия</a>
                     </li>
-                    <li class="navigation-item focus-page">
-                        <a class="navigation-link link " href="./portfolio.html"><p class="focus-page">Портфолио</p></a>
+                    <li class="navigation-item">
+                        <a class="navigation-link link" href="./portfolio.html">Портфолио</a>
                     </li>
                     <li class="navigation-item">
                         <a class="navigation-link link" href="">Контакты</a>
@@ -33,11 +33,20 @@
             </nav>
     
             <ul class="kontact list">
-                <li class="navigation-item">
-                    <a class="kontact-link link" href="">info@devstudio.com</a>
+                <li class="nav-kontakt-item">
+                    <a class="kontact-link link" href="">
+                        <svg width="16" height="12" class="nav-icon">
+                            <use href="./images/sprite.svg#icon-envelope-hover">konvert</use>
+                        </svg>
+                        info@devstudio.com</a>
                 </li>
-                <li class="navigation-item">
-                    <a class="kontact-link link" href="">+38 096 111 11 11</a>
+                <li class="nav-kontakt-item">
+                    <a class="kontact-link link" href="">
+                        <svg width="10" height="16" class="nav-icon">
+                            <use href="./images/sprite.svg#icon-Vector">icon-Vector</use>
+                        </svg>
+                        +38 096 111 11 11
+                    </a>
                 </li>
             </ul>
     
@@ -135,19 +144,54 @@
 </main>
                             <!-- PODVAL -->
     <footer class="footer">
-        <div class="container">
-            <a class="logo link" href="./">Web<span class="logo-fut">Studio</span></a>
-            <ul class="footer-list list">
-                <li class="footer-elements">
-                    <p class="footer-adress">г. Киев, пр-т Леси Украинки, 2</p>
-                </li>
-                <li class="footer-elements">
-                    <a class="footer-comun link" href="">+38 099 111 11 11</a>
-                </li>
-                <li class="footer-elements">
-                    <a class="footer-comun link" href="">info@example.com</a>
-                </li>
-            </ul>
+        <div class="container fut-all">
+            <div class="com-blok">
+                <a class="logo link" href="./">Web<span class="logo-fut">Studio</span></a>
+                <ul class="footer-list list">
+                    <li class="footer-elements">
+                        <p class="footer-adress">г. Киев, пр-т Леси Украинки, 2</p>
+                    </li>
+                    <li class="footer-elements">
+                        <a class="footer-comun link" href="">+38 099 111 11 11</a>
+                    </li>
+                    <li class="footer-elements">
+                        <a class="footer-comun link" href="">info@example.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="fut-social">
+                <h3 class="fut-soc-head">ПРИСОЕДИНЯЙТЕСЬ</h3>
+                <ul class=" fut-social-list social-list list ">
+                    <li class="social-list-item">
+                        <a href="" class=" fut-social-list-link social-list-link link">
+                            <svg class=" fut-social-list-icon social-list-icon">
+                                <use href="./images/sprite.svg#icon-instagram-2">insta</use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="" class=" fut-social-list-link social-list-link link">
+                            <svg class="fut-social-list-icon social-list-icon">
+                                <use href="./images/sprite.svg#icon-twitter-1">twitt</use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="" class=" fut-social-list-link social-list-link link">
+                            <svg class=" fut-social-list-icon social-list-icon">
+                                <use href="./images/sprite.svg#icon-facebook-1">faceb</use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a href="" class=" fut-social-list-link social-list-link link">
+                            <svg class=" fut-social-list-icon social-list-icon">
+                                <use href="./images/sprite.svg#icon-linkedin-1">linkedin</use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>

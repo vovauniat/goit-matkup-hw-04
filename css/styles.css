@@ -100,6 +100,41 @@ img {
 .focus-page {
   color: #2196f3;
 }
+/* ========= SOCIAL LIST========== */
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color: var(--accent-color);
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: #ffffff;
+}
+
+.social-list-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+/* ========= END SOCIAL LIST========== */
+
 /* =============================== END COMPONENTS ===================== */
 
 /* =============================== HEADER =============================== */
@@ -443,6 +478,9 @@ img {
 }
 
 /* =========================end post klient======================== */
+
+/* ============================= FUTER ========================= */
+
 .footer {
   background-color: var(--bd-color-sec);
   padding-top: 60px;
@@ -452,6 +490,12 @@ img {
 .footer .container {
   text-align: left;
 }
+.fut-all {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
 .footer .logo {
   margin-right: -93px;
   margin-bottom: 20px;
@@ -479,8 +523,37 @@ img {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-/* ============================ END FOOTER ========================= */
+.fut-social {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.fut-soc-head {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--bd-color-pri);
+}
 
+.fut-social-list {
+  padding-top: 20px;
+}
+.fut-social-list-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.fut-social-list-icon {
+  fill: #ffffff;
+}
+
+/* ============================ END FUTER ========================= */
+
+/*  ============================= PORTFOLIO PAGE CSS ======================= */
+/*  ============================= PORTFOLIO PAGE CSS ======================= */
+/*  ============================= PORTFOLIO PAGE CSS ======================= */
 /*  ============================= PORTFOLIO PAGE CSS ======================= */
 
 /* ============================== FILTER =========================== */
