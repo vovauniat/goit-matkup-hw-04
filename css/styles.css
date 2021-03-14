@@ -245,8 +245,7 @@ img {
 
 /* ============================= HERO ======================== */
 .hero {
-  background-image: url(./img/herophoto.jpg);
-  background-color: rgba(47, 48, 58, 0.4);
+  background: url(./img/herophoto.jpg), rgba(47, 48, 58, 0.4);
   width: auto;
   height: 600px;
   padding-top: 200px;
